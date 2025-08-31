@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JaMoveoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+401fc13deb596f8100d42316e596317ce9aa436a")]
 [assembly: System.Reflection.AssemblyProductAttribute("JaMoveoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JaMoveoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
