@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JaMoveoApp.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthController",
+    "Method": "Signup",
+    "RelativePath": "api/Auth/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JaMoveoApp.Dtos.SignupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JaMoveoApp.Controllers.SongsController",
+    "Method": "GetAllSongs",
+    "RelativePath": "api/Songs/GetSongs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JaMoveoApp.Controllers.SongsController",
+    "Method": "LoadSong",
+    "RelativePath": "api/Songs/LoadSong/{songName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JaMoveoApp.Controllers.SongsController",
+    "Method": "SelectSong",
+    "RelativePath": "api/Songs/select",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songName",
+        "Type": "JaMoveoApp.Dtos.SongSelectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
