@@ -10,6 +10,8 @@ namespace JaMoveoApp.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly ISongsService _songsService;
         private readonly IHubContext<SongHub> _hubContext;
+        public static SongDto? LastSelectedSong { get; private set; }
+
         public SongsController(IWebHostEnvironment env, ISongsService songsService, IHubContext<SongHub> hubContext)
         {
             _env = env;
@@ -46,7 +48,7 @@ namespace JaMoveoApp.Controllers
             {
                 song = new(songName.SongName, lines);
             }
-            
+            LastSelectedSong = song;
             await _hubContext.Clients.All.SendAsync("SongSelected", song);
             return Ok();
         }

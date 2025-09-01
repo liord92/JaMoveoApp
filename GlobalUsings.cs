@@ -8,3 +8,4 @@ global using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 global using System.Security.Cryptography;
 global using Microsoft.AspNetCore.Mvc;
 global using Newtonsoft.Json;
+global using JaMoveoApp.Controllers;

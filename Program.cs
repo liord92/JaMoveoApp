@@ -27,8 +27,7 @@ app.UseCors(policy => policy
   .AllowAnyHeader()
   .AllowAnyMethod()
   .AllowCredentials());
-//app.MapHub<RehearsalHub>("/rehearsalHub");
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
