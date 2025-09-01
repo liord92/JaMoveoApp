@@ -7,12 +7,6 @@ namespace JaMoveoApp.Hubs
     public class SongHub : Hub
     {
 
-        //public async Task NotifySongSelected(SongDto song)
-        //{
-        //    _lastSelectedSong = song;
-        //    await Clients.All.SendAsync("SongSelected", song); // שולח לכל המשתמשים
-        //}
-
         public override async Task OnConnectedAsync()
         {
 
